@@ -10,7 +10,7 @@ function App() {
   const [darkMode, setdarkMode] = useState(false)
 
   const [estado, setEstado] = useState(false)
-
+  const [idMetro, setIdmetro] = useState(0)
 
 
   return (
@@ -35,7 +35,7 @@ function App() {
           </div>
           <div className='mt-10'>
             
-          <Formulario setEstado={setEstado}/>
+          <Formulario setEstado={setEstado} idMetro={idMetro}/>
 
           </div>
         </div>
@@ -49,7 +49,7 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10 h-[675px] overflow-y-auto'>
-          <Listar estado={estado} />
+          <Listar estado={estado} setIdmetro={setIdmetro} />
           </div>
         </div>
       </main>
