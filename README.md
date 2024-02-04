@@ -1,4 +1,4 @@
-1.	Firebase (Google Cloud Platform):
+1.	Firebase (Google Cloud Platform): <br>
 Firebase ofrece Firebase Cloud Functions, que te permite implementar funciones sin servidor para ejecutar tu lógica de backend.
 También proporciona Firebase Hosting para alojar el frontend y Firebase Realtime Database o Firestore para almacenar datos.
 
@@ -11,8 +11,6 @@ Amplify también ofrece un sistema de autenticación y bases de datos como AWS D
 
 Netlify es conocido por su alojamiento estático y funciones sin servidor (Lambda functions).
 Puedes implementar funciones sin servidor para actuar como tu backend y alojar tu frontend directamente en Netlify.
-
-
 
 
 
